@@ -3,7 +3,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$conn = mysqli_connect('localhost', 'root', '', 'inventory_database');
+$conn = mysqli_connect('localhost', 'alvinnu7_dashboard', 'dashboard9021', 'alvinnu7_dashboard');
 
 // Logika untuk menangani permintaan AJAX check supplier
 if(isset($_POST['checksupplier'])) {
